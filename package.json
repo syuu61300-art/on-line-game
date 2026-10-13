@@ -1,17 +1,16 @@
 {
-  "name": "pier7",
+  "name": "pier7-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "PIER 7 browser FPS — static page + WebSocket presence relay",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "esbuild": "^0.24.0",
-    "three": "^0.170.0",
     "ws": "^8.18.0"
   }
 }
